@@ -21,5 +21,4 @@ target_include_directories(imgui PUBLIC
     ${CMAKE_CURRENT_SOURCE_DIR}/backends
 )
 
-find_package(glfw3 CONFIG REQUIRED)
 target_link_libraries(imgui PUBLIC glfw)
